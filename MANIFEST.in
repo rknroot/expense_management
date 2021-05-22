@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include expense_management *.css
+recursive-include expense_management *.csv
+recursive-include expense_management *.html
+recursive-include expense_management *.ico
+recursive-include expense_management *.js
+recursive-include expense_management *.json
+recursive-include expense_management *.md
+recursive-include expense_management *.png
+recursive-include expense_management *.py
+recursive-include expense_management *.svg
+recursive-include expense_management *.txt
+recursive-exclude expense_management *.pyc
