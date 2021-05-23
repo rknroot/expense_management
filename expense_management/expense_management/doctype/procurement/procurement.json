@@ -1,0 +1,226 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2021-05-23 11:23:43.850447",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "orders",
+  "column_break_3",
+  "quotes",
+  "section_break_5",
+  "organization",
+  "location",
+  "last_modified_date",
+  "column_break_9",
+  "status",
+  "address",
+  "created_date",
+  "currency",
+  "section_break_14",
+  "class",
+  "config",
+  "quantity",
+  "vendor",
+  "column_break_19",
+  "sub_class",
+  "expected_installation_date",
+  "specification",
+  "additional_requirement"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Request ID",
+   "options": "RID./.####",
+   "read_only": 1
+  },
+  {
+   "fieldname": "orders",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Orders",
+   "options": "\nOrder a New Service\nOrder Multiple Services at a Location\nCreate New Requisition\nTerminate Service\nTerminate Bulk Service\nMigrate Plan / Change Service Configuration\nAdd / Terminate Features"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quotes",
+   "fieldtype": "Data",
+   "label": "Quotes"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Organization"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "last_modified_date",
+   "fieldtype": "Date",
+   "label": "Last Modified Date"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "default": "Today",
+   "fieldname": "created_date",
+   "fieldtype": "Date",
+   "label": "Created Date"
+  },
+  {
+   "default": "INR",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Data",
+   "label": "Service class"
+  },
+  {
+   "description": "(Speed, IP, Plan, etc.)",
+   "fieldname": "config",
+   "fieldtype": "Small Text",
+   "label": "Configuration"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Data",
+   "label": "Vendor"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_class",
+   "fieldtype": "Data",
+   "label": "Service type (subclass)"
+  },
+  {
+   "fieldname": "expected_installation_date",
+   "fieldtype": "Date",
+   "label": "Expected Installation Date"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "additional_requirement",
+   "fieldtype": "Data",
+   "label": "Additional Requirement"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-05-23 11:37:30.562049",
+ "modified_by": "Administrator",
+ "module": "Expense Management",
+ "name": "Procurement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Vendor",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

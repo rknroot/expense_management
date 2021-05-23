@@ -1,0 +1,318 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2021-05-22 18:29:17.324728",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "class",
+  "sub_class",
+  "status",
+  "column_break_4",
+  "property",
+  "object_property",
+  "currency",
+  "section_break_7",
+  "payment_terms",
+  "section_break_9",
+  "total_amount_to_pay",
+  "column_break_11",
+  "invoice_processing_notes",
+  "section_break_12",
+  "location",
+  "provider_name",
+  "provider_code",
+  "billing_period_from",
+  "billing_period_to",
+  "invoice_date",
+  "due_date",
+  "cb_1",
+  "current_amount",
+  "previous_balance",
+  "due_amount",
+  "late_payment_fee",
+  "total_amount_due",
+  "invoice_attachment",
+  "section_break_28",
+  "open_tickets",
+  "usage_analaysis",
+  "column_break_31",
+  "plan_analysis",
+  "no_of_users",
+  "bench_marking"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "options": "EXP./.###"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Class",
+   "options": "\nTELECOM\nMOBILITY\nINTERNET\nNETWORK AND INFRASTRUCTURE\nOTHERS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sub_class",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sub Class",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "property",
+   "fieldtype": "Select",
+   "label": "Property",
+   "options": "\nINDIA OFF.A\nINDIA OFF.B\nINDIA OFF.C\nUS  OFF. A\nUS  OFF. B\nGERMANY OFF. A\nGERMANY OFF. B\nGERMANY OFF. C\nINDIA OFF.PUNE, Magarpatta\nINDIA OFF.PUNE, Hinjewadi\nINDIA OFF.PUNE, Kharadi\nINDIA OFF.PUNE, Yerwada\nINDIA OFF.PATNA\nINDIA OFF.PUNJAB\nUS  OFF. Columbus\nUS  OFF. California"
+  },
+  {
+   "fieldname": "object_property",
+   "fieldtype": "Data",
+   "label": "Object Property"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Terms",
+   "options": "\nMonthly\nQuarterly\nHalf Yearly\nYearly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_amount_to_pay",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount to Pay"
+  },
+  {
+   "fieldname": "invoice_processing_notes",
+   "fieldtype": "Data",
+   "label": "Invoice Processing Notes"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "provider_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Provider Name"
+  },
+  {
+   "fieldname": "provider_code",
+   "fieldtype": "Int",
+   "label": "Provider Code"
+  },
+  {
+   "fieldname": "billing_period_from",
+   "fieldtype": "Date",
+   "label": "Billing Period From"
+  },
+  {
+   "fieldname": "billing_period_to",
+   "fieldtype": "Date",
+   "label": "Billing Period To"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "current_amount",
+   "fieldtype": "Currency",
+   "label": "Current Amount",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "previous_balance",
+   "fieldtype": "Currency",
+   "label": "Previous Balance",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_amount",
+   "fieldtype": "Currency",
+   "label": "Due amount",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "late_payment_fee",
+   "fieldtype": "Currency",
+   "label": "Late Payment Fee",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount_due",
+   "fieldtype": "Currency",
+   "label": "Total Amount Due"
+  },
+  {
+   "fieldname": "invoice_attachment",
+   "fieldtype": "Attach",
+   "label": "Invoice Attachment"
+  },
+  {
+   "fieldname": "cb_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "open_tickets",
+   "fieldtype": "Data",
+   "label": "Open Tickets"
+  },
+  {
+   "fieldname": "usage_analaysis",
+   "fieldtype": "Data",
+   "label": "Usage Analaysis"
+  },
+  {
+   "fieldname": "plan_analysis",
+   "fieldtype": "Select",
+   "label": "Plan Analysis",
+   "options": "\nPERFECT PLAN\nNEED UPGRADE\nNEED DOWNGRADE"
+  },
+  {
+   "fieldname": "bench_marking",
+   "fieldtype": "Float",
+   "label": "BENCH MARKING (cost per user)"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "INR",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "no_of_users",
+   "fieldtype": "Int",
+   "label": "No of Users"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Status",
+   "options": "New\nProcess\nHold\nReject",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-05-23 11:43:04.307293",
+ "modified_by": "Administrator",
+ "module": "Expense Management",
+ "name": "Expense",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Vendor",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "class"
+}

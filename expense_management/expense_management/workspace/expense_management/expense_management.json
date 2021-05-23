@@ -1,0 +1,31 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-05-22 19:29:00.644644",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Expense Management",
+ "links": [],
+ "modified": "2021-05-22 19:40:36.571129",
+ "modified_by": "Administrator",
+ "module": "Expense Management",
+ "name": "Expense Management",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Expense",
+   "link_to": "Expense",
+   "type": "DocType"
+  }
+ ]
+}
