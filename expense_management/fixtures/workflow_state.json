@@ -1,0 +1,86 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2021-05-22 17:31:16.690809",
+  "name": "Pending",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2021-05-22 17:31:16.695648",
+  "name": "Approved",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2021-05-22 17:31:16.701413",
+  "name": "Rejected",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2021-05-23 11:39:37.535444",
+  "name": "Process",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "Success",
+  "workflow_state_name": "Process"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2021-05-23 11:40:03.063759",
+  "name": "Hold",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "Warning",
+  "workflow_state_name": "Hold"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2021-05-23 11:40:13.849687",
+  "name": "Reject",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "Danger",
+  "workflow_state_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2021-05-23 11:42:08.317627",
+  "name": "New",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "style": "Primary",
+  "workflow_state_name": "New"
+ }
+]
