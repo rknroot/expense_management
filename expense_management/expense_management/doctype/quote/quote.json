@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "autoname": "QT./.YY./.####",
+ "creation": "2021-05-24 21:59:02.497487",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "request_id",
+  "recurring_cost",
+  "quote_summary",
+  "contract_copy",
+  "quote_manager",
+  "column_break_5",
+  "one_time_cost",
+  "installation_timelines",
+  "configuration",
+  "expected_quote_finalization_date",
+  "contact_details",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "recurring_cost",
+   "fieldtype": "Currency",
+   "label": "Recurring Cost"
+  },
+  {
+   "fieldname": "quote_summary",
+   "fieldtype": "Data",
+   "label": "Quote Summary"
+  },
+  {
+   "fieldname": "contract_copy",
+   "fieldtype": "Attach",
+   "label": "Contract Copy"
+  },
+  {
+   "fieldname": "quote_manager",
+   "fieldtype": "Data",
+   "label": "Quote Manager"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "one_time_cost",
+   "fieldtype": "Currency",
+   "label": "One time Cost"
+  },
+  {
+   "fieldname": "installation_timelines",
+   "fieldtype": "Data",
+   "label": "Installation timelines"
+  },
+  {
+   "fieldname": "configuration",
+   "fieldtype": "Data",
+   "label": "Configuration"
+  },
+  {
+   "fieldname": "expected_quote_finalization_date",
+   "fieldtype": "Date",
+   "label": "Expected Quote Finalization Date"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Data",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "request_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Request ID",
+   "options": "Procurement",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-06-10 00:47:52.177902",
+ "modified_by": "Administrator",
+ "module": "Expense Management",
+ "name": "Quote",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense Vendor",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Expense User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

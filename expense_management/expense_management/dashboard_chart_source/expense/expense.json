@@ -1,0 +1,13 @@
+{
+ "creation": "2021-05-23 15:50:17.287650",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2021-05-23 15:50:17.287650",
+ "modified_by": "Administrator",
+ "module": "Expense Management",
+ "name": "Expense",
+ "owner": "Administrator",
+ "source_name": "Expense",
+ "timeseries": 0
+}

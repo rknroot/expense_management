@@ -59,11 +59,12 @@
    "reqd": 1
   },
   {
+   "depends_on": "class",
    "fieldname": "sub_class",
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Sub Class",
-   "reqd": 1
+   "mandatory_depends_on": "class"
   },
   {
    "fieldname": "column_break_4",
@@ -118,9 +119,10 @@
   },
   {
    "fieldname": "provider_name",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Provider Name"
+   "label": "Provider Name",
+   "options": "Vendor"
   },
   {
    "fieldname": "provider_code",
@@ -246,7 +248,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-23 11:43:04.307293",
+ "modified": "2021-06-08 22:14:36.133870",
  "modified_by": "Administrator",
  "module": "Expense Management",
  "name": "Expense",

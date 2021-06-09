@@ -10,25 +10,26 @@
   "orders",
   "column_break_3",
   "quotes",
+  "column_break_21",
+  "vendor",
   "section_break_5",
   "organization",
   "location",
-  "last_modified_date",
   "column_break_9",
   "status",
   "address",
-  "created_date",
   "currency",
   "section_break_14",
   "class",
   "config",
   "quantity",
-  "vendor",
   "column_break_19",
   "sub_class",
   "expected_installation_date",
   "specification",
-  "additional_requirement"
+  "additional_requirement",
+  "section_break_23",
+  "quote_table"
  ],
  "fields": [
   {
@@ -70,11 +71,6 @@
    "label": "Location"
   },
   {
-   "fieldname": "last_modified_date",
-   "fieldtype": "Date",
-   "label": "Last Modified Date"
-  },
-  {
    "fieldname": "column_break_9",
    "fieldtype": "Column Break"
   },
@@ -87,14 +83,8 @@
   },
   {
    "fieldname": "address",
-   "fieldtype": "Small Text",
+   "fieldtype": "Data",
    "label": "Address"
-  },
-  {
-   "default": "Today",
-   "fieldname": "created_date",
-   "fieldtype": "Date",
-   "label": "Created Date"
   },
   {
    "default": "INR",
@@ -113,9 +103,8 @@
    "label": "Service class"
   },
   {
-   "description": "(Speed, IP, Plan, etc.)",
    "fieldname": "config",
-   "fieldtype": "Small Text",
+   "fieldtype": "Data",
    "label": "Configuration"
   },
   {
@@ -125,8 +114,9 @@
   },
   {
    "fieldname": "vendor",
-   "fieldtype": "Data",
-   "label": "Vendor"
+   "fieldtype": "Table",
+   "label": "Vendor",
+   "options": "Vendors"
   },
   {
    "fieldname": "column_break_19",
@@ -135,7 +125,7 @@
   {
    "fieldname": "sub_class",
    "fieldtype": "Data",
-   "label": "Service type (subclass)"
+   "label": "Service type"
   },
   {
    "fieldname": "expected_installation_date",
@@ -151,11 +141,24 @@
    "fieldname": "additional_requirement",
    "fieldtype": "Data",
    "label": "Additional Requirement"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quote_table",
+   "fieldtype": "Table",
+   "options": "Quote Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-23 11:37:30.562049",
+ "modified": "2021-06-10 01:03:58.171096",
  "modified_by": "Administrator",
  "module": "Expense Management",
  "name": "Procurement",
