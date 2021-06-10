@@ -7,7 +7,9 @@
  "engine": "InnoDB",
  "field_order": [
   "vendor",
-  "contact"
+  "contact",
+  "column_break_3",
+  "email"
  ],
  "fields": [
   {
@@ -21,12 +23,23 @@
    "fieldname": "contact",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Contact"
+   "label": "Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-24 21:47:06.695722",
+ "modified": "2021-06-10 10:10:16.656811",
  "modified_by": "Administrator",
  "module": "Expense Management",
  "name": "Vendor",
