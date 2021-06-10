@@ -44,6 +44,7 @@ def mail_notification(docid):
 				#Creation of quote while click on send mail button
 					quote_record = frappe.new_doc("Quote")
 					quote_record.request_id = self.name
+					quote_record.vendor = vendor.vendor
 					quote_record.email = vendor.email
 					vendor.send_mail = "1"
 					quote_record.insert(ignore_permissions = True)

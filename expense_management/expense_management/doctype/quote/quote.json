@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "request_id",
+  "vendor",
   "recurring_cost",
   "quote_summary",
   "contract_copy",
@@ -83,11 +84,17 @@
    "fieldtype": "Data",
    "label": "Email",
    "read_only": 1
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor Name",
+   "options": "Vendor"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-06-10 00:47:52.177902",
+ "modified": "2021-06-10 10:14:48.562275",
  "modified_by": "Administrator",
  "module": "Expense Management",
  "name": "Quote",

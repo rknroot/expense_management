@@ -174,4 +174,4 @@ user_data_fields = [
 # 	"expense_management.auth.validate"
 # ]
 
-fixtures = ["Workspace", "System Settings", "Role", "Module Profile", "Role Profile", "Workflow", "Workflow State", "Workflow Action Master"]
+fixtures = ["Workspace", "System Settings", "Role", "Module Profile", "Role Profile", "Workflow", "Workflow State", "Workflow Action Master", "Web Form"]
